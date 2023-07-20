@@ -64,6 +64,7 @@ ol {
   padding-top: 24px;
   padding-bottom: 24px;
 }
+
 .section-main {
   padding: 188px 472px 292px 472px;
 }
@@ -141,6 +142,7 @@ ol {
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 0.02em;
+  max-width: 496px;
 }
 .butt-btn {
   color: var(--white);
@@ -151,6 +153,8 @@ ol {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
+  padding: 16px 32px 16px 34px;
+  margin-top: 48px;
 }
 .butt-btn:hover,
 .butt-btn:focus {
