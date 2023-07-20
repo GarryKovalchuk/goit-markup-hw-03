@@ -168,6 +168,10 @@ ol {
   line-height: 1.2;
   letter-spacing: 0.02em;
 }
+.section-one {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
 .list {
   list-style: none;
 }
@@ -180,6 +184,9 @@ ol {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+}
+.section-two {
+  padding-bottom: 120px;
 }
 .section-three {
   background: var(--cloud);
@@ -218,6 +225,7 @@ ol {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  max-width: 264px;
 }
 /* footer end */
 
