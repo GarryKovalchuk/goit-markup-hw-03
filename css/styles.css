@@ -58,6 +58,9 @@ ol {
   margin-bottom: 0;
   padding-left: 0;
 }
+img {
+  display: block;
+}
 /* Header start */
 .header {
   padding-top: 24px;
