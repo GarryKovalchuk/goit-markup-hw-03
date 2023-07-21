@@ -65,9 +65,6 @@ ol {
   padding-bottom: 24px;
 }
 
-.section-main {
-  padding: 188px 472px 292px 472px;
-}
 .header-menu {
   display: flex;
   gap: 40px;
@@ -149,6 +146,7 @@ ol {
 /* Header and */
 
 /* Main start */
+
 .section-main {
   background-color: var(--navyblue);
 }
@@ -170,8 +168,10 @@ ol {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  padding: 16px 32px 16px 34px;
+  padding: 16px 32px;
   margin-top: 48px;
+  border-radius: 4px;
+  border: none;
 }
 .butt-btn:hover,
 .butt-btn:focus {
