@@ -148,6 +148,7 @@ ol {
 
 .section-main {
   background-color: var(--navyblue);
+  padding: 188px 472px 292px 472px;
 }
 .sectoin-main-title {
   color: var(--white);
