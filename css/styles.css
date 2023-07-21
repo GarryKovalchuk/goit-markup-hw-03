@@ -150,6 +150,9 @@ ol {
   background-color: var(--navyblue);
   padding: 188px 472px 292px 472px;
 }
+.section-main-container {
+  text-align: center;
+}
 .sectoin-main-title {
   color: var(--white);
   text-align: center;
@@ -190,6 +193,7 @@ ol {
   padding-left: 157px;
   padding-right: 155px;
 }
+
 .section-one {
   padding-top: 120px;
   padding-bottom: 120px;
@@ -198,7 +202,8 @@ ol {
   display: flex;
 }
 .section-one-item {
-  width: calc ((100% - 24px * 3) /4);
+  width: calc((100% - 24px * 3) / 4);
+  text-align: center;
 }
 .list {
   list-style: none;
@@ -215,6 +220,7 @@ ol {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  padding-bottom: 72px;
 }
 .section-two {
   padding-bottom: 120px;
@@ -222,6 +228,7 @@ ol {
 .section-two-list {
   display: flex;
   gap: 24px;
+  width: calc((100%-24px * 2) / 3);
 }
 /* section-two-end */
 
