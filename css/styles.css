@@ -70,6 +70,8 @@ ol {
 }
 .header-menu {
   display: flex;
+  gap: 40px;
+  margin-left: 76px;
 }
 .header-nav {
   display: flex;
@@ -81,6 +83,7 @@ ol {
 
 .address-list {
   display: flex;
+  gap: 40px;
 }
 .main-logo {
   color: var(--iris);
