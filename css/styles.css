@@ -177,6 +177,8 @@ ol {
 .butt-btn:focus {
   background: var(--ocean);
 }
+
+/* section-one start */
 .section-one-stitle {
   color: var(--navyblue);
   background: var(--white);
@@ -192,9 +194,15 @@ ol {
   padding-top: 120px;
   padding-bottom: 120px;
 }
+.section-one-list {
+  display: flex;
+}
 .list {
   list-style: none;
 }
+/* section-one end */
+
+/* section-two start */
 .section-two-title {
   color: var(--navyblue);
   background: var(--white);
@@ -250,7 +258,9 @@ ol {
 /* footer end */
 
 /*----Page Portfolio---*/
-
+.section-port-list {
+  display: flex;
+}
 .butt {
   color: var(--iris);
   background: var(--cloud);
