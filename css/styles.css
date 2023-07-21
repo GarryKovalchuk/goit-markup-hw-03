@@ -275,6 +275,7 @@ ol {
 /*----Page Portfolio---*/
 .section-port-list {
   display: flex;
+  gap: 24px;
 }
 .butt {
   color: var(--iris);
@@ -314,4 +315,10 @@ ol {
   line-height: 1.5;
   letter-spacing: 0.02em;
   max-width: 264px;
+  padding: 24px auto;
+}
+.section-port-img {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
 }
