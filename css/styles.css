@@ -197,6 +197,9 @@ ol {
 .section-one-list {
   display: flex;
 }
+.section-one-item {
+  width: calc ((100% - 24px * 3) /4);
+}
 .list {
   list-style: none;
 }
@@ -216,8 +219,19 @@ ol {
 .section-two {
   padding-bottom: 120px;
 }
+.section-two-list {
+  display: flex;
+  gap: 24px;
+}
+/* section-two-end */
+
+/* section-three-start */
 .section-three {
   background: var(--cloud);
+}
+.three-list {
+  display: flex;
+  gap: 24px;
 }
 .section-three-title {
   color: var(--navyblue);
@@ -240,6 +254,7 @@ ol {
 .section-three-list {
   background: var(--white);
 }
+/* section-three-end */
 /* Main end */
 
 /* footer start */
