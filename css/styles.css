@@ -68,6 +68,20 @@ ol {
 .section-main {
   padding: 188px 472px 292px 472px;
 }
+.header-menu {
+  display: flex;
+}
+.header-nav {
+  display: flex;
+  margin-right: auto;
+}
+.header-container {
+  display: flex;
+}
+
+.address-list {
+  display: flex;
+}
 .main-logo {
   color: var(--iris);
   font-family: "Raleway", sans-serif;
