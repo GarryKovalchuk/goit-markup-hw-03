@@ -58,7 +58,7 @@ ol {
   margin-bottom: 0;
   padding-left: 0;
 }
-img {
+.img {
   display: block;
 }
 /* Header start */
@@ -71,11 +71,12 @@ img {
 .header-menu {
   display: flex;
   gap: 40px;
-  margin-left: 76px;
+  align-items: center;
 }
 .header-nav {
   display: flex;
   margin-right: auto;
+  align-items: center;
 }
 .header-container {
   display: flex;
@@ -104,6 +105,7 @@ img {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-right: 76px;
 }
 .link-whitelogo {
   color: var(--cloud);
@@ -360,5 +362,4 @@ img {
   gap: 48px 24px;
   flex-wrap: wrap;
   border: 1px solid var(--cornflower);
-  justify-content: center;
 }
