@@ -380,7 +380,9 @@ ol {
   column-gap: 24px;
   row-gap: 48px;
 }
-
+.section-img {
+  width: calc((100% - 48px) / 3);
+}
 /*.text-item {
   display: flex;
   max-width: 264px;
