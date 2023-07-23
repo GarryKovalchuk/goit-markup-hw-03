@@ -389,6 +389,10 @@ ol {
   border: 1px solid #e7e9fc;
   border-top: none;
 }
+.section-port {
+  padding-top: 96px;
+  padding-bottom: 120px;
+}
 /*.text-item {
   display: flex;
   max-width: 264px;
