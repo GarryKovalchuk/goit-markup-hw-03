@@ -75,15 +75,16 @@ ol {
 }
 /* Header start */
 .header {
-  padding-top: 24px;
   padding-bottom: 24px;
   border-bottom: 1px solid #e7e9fc;
+  padding: 24px 0;
 }
 
 .header-menu {
   display: flex;
   gap: 40px;
   align-items: center;
+  padding: 24px 0;
 }
 .header-nav {
   display: flex;
@@ -107,6 +108,7 @@ ol {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-right: 76px;
 }
 .link-logo {
   color: var(--navyblue);
@@ -238,6 +240,7 @@ ol {
 /* section-one end */
 
 /* section-two start */
+
 .section-two-title {
   color: var(--navyblue);
   background: var(--white);
@@ -255,8 +258,8 @@ ol {
 .section-two-list {
   display: flex;
   gap: 24px;
-  width: calc((100%-24px * 2) / 3);
 }
+
 /* section-two-end */
 
 /* section-three-start */
