@@ -79,7 +79,10 @@ ol {
   border-bottom: 1px solid #e7e9fc;
   padding: 24px 0;
 }
-
+.header-link { 
+display inline-block;
+padding: 24px 0;
+}
 .header-menu {
   display: flex;
   gap: 40px;
