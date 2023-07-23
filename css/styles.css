@@ -107,6 +107,7 @@ ol {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-right: 76px;
 }
 .link-logo {
   color: var(--navyblue);
