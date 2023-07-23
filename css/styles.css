@@ -325,11 +325,7 @@ ol {
 /* footer end */
 
 /*----Page Portfolio---*/
-.section-port-list {
-  display: flex;
-  gap: 24px;
-  justify-content: center;
-}
+
 .butt {
   color: var(--iris);
   background: var(--cloud);
@@ -378,11 +374,10 @@ ol {
   display: flex;
   max-width: 264px;
 }
-.section-port-img {
+.port-img {
   display: flex;
   gap: 48px 24px;
   flex-wrap: wrap;
-
   border: 1px solid var(--cornflower);
 }
 .port-list-container {
@@ -391,4 +386,9 @@ ol {
   column-gap: 24px;
   row-gap: 48px;
   width: calc((100% - 48px) / 3);
+}
+.section-port-list {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
 }
