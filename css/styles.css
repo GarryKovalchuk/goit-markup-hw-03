@@ -17,6 +17,18 @@ body {
   background-color: var(--white);
   color: #434455;
 }
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
 /*---*/
 .container {
   /* width: 1158px; */
@@ -353,10 +365,6 @@ ol {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  display: flex;
-  flex-wrap: wrap;
-  column-gap: 24px;
-  row-gap: 48px;
 }
 .text {
   color: var(--slate);
@@ -374,6 +382,7 @@ ol {
   display: flex;
   gap: 48px 24px;
   flex-wrap: wrap;
+
   border: 1px solid var(--cornflower);
 }
 .port-list-container {
