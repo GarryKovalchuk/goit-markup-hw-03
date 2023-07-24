@@ -185,6 +185,7 @@ ol {
   letter-spacing: 0.02em;
   max-width: 496px;
   margin: auto;
+  margin-bottom: 48px;
 }
 .butt-btn {
   color: var(--white);
