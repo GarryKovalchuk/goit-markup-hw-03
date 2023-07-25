@@ -93,9 +93,9 @@ ol {
   align-items: center;
 }
 .header-container {
-  display: flex;
   justify-content: space-between;
   align-items: center;
+  display: flex;
 }
 
 .address-list {
@@ -112,6 +112,7 @@ ol {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   margin-right: 76px;
+  margin-top: 24px;
 }
 .link-logo {
   color: var(--navyblue);
