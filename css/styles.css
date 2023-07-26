@@ -239,7 +239,7 @@ ol {
 }
 .section-one-item {
   text-align: left;
-  max-width: 264px;
+  width: 264px;
 }
 
 .list {
@@ -298,7 +298,6 @@ ol {
 }
 .section-three-text {
   text-align: center;
-  margin-bottom: 32px;
 }
 
 .section-three-stitle {
