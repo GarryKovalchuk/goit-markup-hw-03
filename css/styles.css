@@ -86,7 +86,7 @@ ol {
   display: flex;
   gap: 40px;
   align-items: center;
-  margin-left: 76px;
+  /*margin-left: 76px;*/
 }
 .header-nav {
   display: flex;
@@ -113,9 +113,8 @@ ol {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   padding: 24px 0;
-
-  /*margin-right: 76px;
-  margin-top: 24px;*/
+  margin-right: 76px;
+  /*margin-top: 24px;*/
 }
 .link-logo {
   color: var(--navyblue);
