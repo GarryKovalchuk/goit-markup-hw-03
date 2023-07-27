@@ -342,7 +342,6 @@ ol {
   display: flex;
   gap: 24px;
   justify-content: center;
-  margin-bottom: 72px;
 }
 .butt {
   color: var(--iris);
@@ -358,7 +357,7 @@ ol {
   border: 1px solid var(--cornflower);
   padding: 12px 24px;
   /*margin-top: 96px;*/
-  /*margin-bottom: 72px;*/
+  margin-bottom: 72px;
 }
 .butt:hover,
 .butt:focus {
