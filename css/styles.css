@@ -86,6 +86,7 @@ ol {
   display: flex;
   gap: 40px;
   align-items: center;
+  margin-left: 76px;
 }
 .header-nav {
   display: flex;
@@ -111,7 +112,7 @@ ol {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  padding: 24px 0;
+  /*padding: 24px 0;*/
 
   /*margin-right: 76px;
   margin-top: 24px;*/
@@ -125,7 +126,7 @@ ol {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  margin-right: 76px;
+  /*margin-right: 76px;*/
 }
 .link-whitelogo {
   color: var(--cloud);
