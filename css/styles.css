@@ -112,7 +112,7 @@ ol {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  padding-top: 24px;
+  padding: 24px 0;
 
   /*margin-right: 76px;
   margin-top: 24px;*/
@@ -324,9 +324,9 @@ ol {
   background: var(--navyblue);
   padding: 100px 0 100px;
 }
-.main-logo {
+.ftr-logo {
   display: inline-block;
-  margin-bottom: 16px;
+  /*margin-bottom: 16px;*/
 }
 .footer-text {
   color: var(--cloud);
