@@ -136,8 +136,6 @@ ol {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  margin-bottom: 16px;
-  display: inline-block;
 }
 .header-link {
   color: var(--navyblue);
@@ -325,10 +323,10 @@ ol {
   background: var(--navyblue);
   padding: 100px 0 100px;
 }
-/*.ftr-logo {
+.ftr-logo {
   display: inline-block;
-  /*margin-bottom: 16px;
-}*/
+  margin-bottom: 16px;
+}
 .footer-text {
   color: var(--cloud);
   font-size: 16px;
@@ -341,6 +339,7 @@ ol {
 
 /*----Page Portfolio---*/
 .section-port-list {
+  margin-bottom: 72px;
   display: flex;
   gap: 24px;
   justify-content: center;
@@ -359,7 +358,7 @@ ol {
   border: 1px solid var(--cornflower);
   padding: 12px 24px;
   /*margin-top: 96px;*/
-  margin-bottom: 72px;
+  /*margin-bottom: 72px;*/
 }
 .butt:hover,
 .butt:focus {
